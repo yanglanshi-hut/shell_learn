@@ -3,9 +3,10 @@
 read -r -p "Enter your commit message: " message
 #echo "Commit message: $message"
 git status
+echo "Adding all files..."
 git add -A
+echo "Committing..."
 git commit -m "$message"
-
 echo "Pushing to remote..."
-git push origin master
+git push
 echo "Done."
