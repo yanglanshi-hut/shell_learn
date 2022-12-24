@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -r -p "Enter your commit message: " message
+read -p "Enter your commit message: " message
 #echo "Commit message: $message"
 git status
 echo "Adding all files..."
