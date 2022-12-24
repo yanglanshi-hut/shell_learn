@@ -1,6 +1,6 @@
 # shell_learn
 学习shell脚本
-#知识点
+知识点
 （1）两个整数之间比较
 -eq 等于（equal） -ne 不等于（not equal）
 -lt 小于（less than） -le 小于等于（less equal）
